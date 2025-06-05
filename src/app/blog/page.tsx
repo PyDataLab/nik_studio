@@ -37,7 +37,7 @@ export default function Blog() {
   return (
     <main className={`relative flex flex-col min-h-screen bg-[#0E1011] max-w-[1920px] w-full mx-auto ${inter.variable}`}>
       {/* Header */}
-      <header className="flex flex-row justify-between items-center px-6 sm:px-12 lg:px-24 pt-16 w-full absolute top-0 left-0 right-0 z-10">
+      <header className="flex flex-col sm:flex-row justify-between items-center px-6 sm:px-12 lg:px-24 pt-16 w-full absolute top-0 left-0 right-0 z-10">
         {/* Logo */}
         <Link href="/">
           <Image
@@ -50,38 +50,38 @@ export default function Blog() {
         </Link>
 
         {/* Navigation */}
-        <nav className="flex items-center gap-6 md:gap-12 ml-0">
+        <nav className="flex sm:flex-row flex-col items-center gap-6 md:gap-12 -ml-[10px] sm:mt-0 mt-4">
           <Link
             href="#"
-            className="text-white font-inter font-semibold text-lg md:text-[22px] leading-none"
+            className="text-white font-inter font-semibold text-lg md:text-[22px] leading-none hover:text-[#DE063A] transition-colors duration-300"
           >
             Projects
           </Link>
           <Link
             href="#"
-            className="text-white font-inter font-semibold text-lg md:text-[22px] leading-none"
+            className="text-white font-inter font-semibold text-lg md:text-[22px] leading-none hover:text-[#DE063A] transition-colors duration-300"
           >
             Services
           </Link>
           <Link
             href="#"
-            className="text-white font-inter font-semibold text-lg md:text-[22px] leading-none"
+            className="text-white font-inter font-semibold text-lg md:text-[22px] leading-none hover:text-[#DE063A] transition-colors duration-300"
           >
             Studio
           </Link>
           <Link
             href="#"
-            className="text-white font-inter font-semibold text-lg md:text-[22px] leading-none"
+            className="text-white font-inter font-semibold text-lg md:text-[22px] leading-none hover:text-[#DE063A] transition-colors duration-300"
           >
             Journal
           </Link>
         </nav>
 
         {/* CTA Button */}
-        <div className="flex flex-col gap-0.5 justify-center -mr-20">
+        <div className="flex flex-col gap-0.5 justify-center 2xl:-mr-[21px] sm:mt-0 mt-4">
           <Link
             href="#"
-            className="text-white font-inter font-semibold text-lg md:text-[22px] leading-none underline underline-offset-5 decoration-2"
+            className="text-white font-inter font-semibold text-lg md:text-[22px] leading-none underline underline-offset-5 decoration-2 hover:text-[#DE063A] transition-colors duration-300"
           >
             Let&apos;s Talk
           </Link>
@@ -89,9 +89,9 @@ export default function Blog() {
       </header>
 
       {/* Blog Title Section */}
-      <section className="w-full pt-38 pb-24 px-6 sm:px-12 lg:px-24">
+      <section className="w-full pt-96 sm:pt-38 pb-24 px-6 sm:px-12 lg:px-24">
         <div className="flex flex-col">
-          <h1 className="text-white text-[280px] font-geometria font-extrabold uppercase leading-[100%]">
+          <h1 className="text-white text-[88px] sm:text-[200px] 2xl:text-[280px] font-geometria font-extrabold uppercase leading-[100%]">
             БЛОГ
           </h1>
           <p className="mt-[10px] text-white text-2xl sm:text-4xl md:text-6xl lg:text-[80px] font-inter font-semibold leading-[1.2] tracking-[-0.025em] max-w-[1400px]">
@@ -117,7 +117,7 @@ export default function Blog() {
               (Креативный директор)
             </span>
             <div className="flex flex-col gap-4">
-              <h2 className="text-white text-3xl md:text-[48px] font-geometria font-bold uppercase leading-[1.3]">
+              <h2 className="text-white text-3xl xl:text-[36px] 2xl:text-[48px] font-geometria font-bold uppercase leading-[1.3]">
                 ПОЧЕМУ ПРОДУМАННЫЙ ДИЗАЙН ПРОДАЕТ
               </h2>
               <p className="text-white text-lg md:text-[22px] font-inter font-normal leading-[1.7]">
@@ -142,7 +142,7 @@ export default function Blog() {
               (Креативный директор)
             </span>
             <div className="flex flex-col gap-4">
-              <h2 className="text-white text-3xl md:text-[48px] font-geometria font-bold uppercase leading-[1.3]">
+              <h2 className="text-white text-3xl xl:text-[36px] 2xl:text-[48px] font-geometria font-bold uppercase leading-[1.3]">
                 СО СЛОЖНОГО ЯЗЫКА В ПРОСТОЙ ВИЗУАЛ
               </h2>
               <p className="text-white/60 text-lg md:text-[22px] font-inter font-normal leading-[1.7]">
@@ -167,7 +167,7 @@ export default function Blog() {
               (Креативный директор)
             </span>
             <div className="flex flex-col gap-4">
-              <h2 className="text-white text-3xl md:text-[48px] font-geometria font-bold uppercase leading-[1.3]">
+              <h2 className="text-white text-3xl xl:text-[36px] 2xl:text-[48px] font-geometria font-bold uppercase leading-[1.3]">
                 ПРАВИЛЬНЫЕ ФОТО ЭКОНОМЯТ БЮДЖЕТ
               </h2>
               <p className="text-white/60 text-lg md:text-[22px] font-inter font-normal leading-[1.7]">
@@ -192,7 +192,7 @@ export default function Blog() {
               (Креативный директор)
             </span>
             <div className="flex flex-col gap-4">
-              <h2 className="text-white text-3xl md:text-[48px] font-geometria font-bold uppercase leading-[1.3]">
+              <h2 className="text-white text-3xl xl:text-[36px] 2xl:text-[48px] font-geometria font-bold uppercase leading-[1.3]">
                 UMEX & SIMTEX 2024
               </h2>
               <p className="text-white/60 text-lg md:text-[22px] font-inter font-normal leading-[1.7]">
@@ -217,7 +217,7 @@ export default function Blog() {
               (Креативный директор)
             </span>
             <div className="flex flex-col gap-4">
-              <h2 className="text-white text-3xl md:text-[48px] font-geometria font-bold uppercase leading-[1.3]">
+              <h2 className="text-white text-3xl xl:text-[36px] 2xl:text-[48px] font-geometria font-bold uppercase leading-[1.3]">
                 ОРГАНИЗАЦИЯ ВИЗИТА ПЕРВОГО ЛИЦА
               </h2>
               <p className="text-white/60 text-lg md:text-[22px] font-inter font-normal leading-[1.7]">
@@ -242,7 +242,7 @@ export default function Blog() {
               (Креативный директор)
             </span>
             <div className="flex flex-col gap-4">
-              <h2 className="text-white text-3xl md:text-[48px] font-geometria font-bold uppercase leading-[1.3]">
+              <h2 className="text-white text-3xl xl:text-[36px] 2xl:text-[48px] font-geometria font-bold uppercase leading-[1.3]">
                 УЧАСТИЕ В СТРАТСЕССИИ РУДНЕВО
               </h2>
               <p className="text-white/60 text-lg md:text-[22px] font-inter font-normal leading-[1.7]">

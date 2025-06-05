@@ -102,7 +102,7 @@ export default function Contact() {
                 href="#"
                 className="text-white font-inter font-semibold text-lg sm:text-[22px] leading-none underline underline-offset-5 decoration-2 hover:text-[#DE063A] transition-colors duration-300"
               >
-                Let's Talk
+                Let&apos;s Talk
               </Link>
             </div>
           </header>

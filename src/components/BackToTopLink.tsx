@@ -29,7 +29,7 @@ export default function BackToTopLink() {
   };
 
   return (
-    <div className="flex flex-col gap-0.5 lg:-mr-[82px] md:-mr-[12px]">
+    <div className="flex flex-col gap-0.5 lg:-mr-[21px] md:-mr-[12px]">
       <Link 
         href="#" 
         onClick={(e) => {

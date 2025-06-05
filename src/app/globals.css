@@ -23,4 +23,36 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Применяем шрифт Inter */
+.font-inter {
+  font-family: var(--font-inter), Arial, sans-serif !important;
+}
+
+/* Применяем шрифт Geometria */
+.font-geometria {
+  font-family: var(--font-geometria), Arial, sans-serif !important;
+}
+
+/* Жирное начертание для Geometria */
+.font-geometria.font-bold {
+  font-weight: 700;
+}
+
+/* Обычное начертание для Geometria */
+.font-geometria.font-normal {
+  font-weight: 400;
+}
+
+/* Стили для placeholder в форме */
+::placeholder {
+  color: rgba(222, 6, 58, 0.2) !important;
+  font-family: var(--font-inter), Arial, sans-serif !important;
+  font-weight: 400 !important;
+  font-size: 18px !important;
+  line-height: 180% !important;
+  font-style: normal !important;
+  opacity: 1 !important;
 }

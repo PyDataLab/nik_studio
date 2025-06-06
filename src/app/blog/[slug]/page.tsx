@@ -101,10 +101,10 @@ export default function BlogPost() {
                 At the heart of thoughtful UX design is a deep understanding of the user. Boosting engagement starts with knowing who your users are, what they need, and how they interact with your website or app. Every design decision should be rooted in making their experience as seamless and enjoyable as possible, ensuring that their needs are met intuitively.
               </p>
               <p>
-                To prioritize user needs, it's important to conduct thorough research. This includes gathering data through user interviews, surveys, and analytics to identify pain points and areas for improvement. By understanding the user journey, you can tailor your design to eliminate friction and enhance usability, making it easier for users to achieve their goals.
+                To prioritize user needs, it&apos;s important to conduct thorough research. This includes gathering data through user interviews, surveys, and analytics to identify pain points and areas for improvement. By understanding the user journey, you can tailor your design to eliminate friction and enhance usability, making it easier for users to achieve their goals.
               </p>
               <p>
-                A thoughtful UX design doesn't just solve immediate problems—it anticipates future needs. By thinking ahead and considering how users' behaviors might evolve, you can design an experience that adapts over time, ensuring continued engagement. The more users feel that their needs are being met effortlessly, the more likely they are to remain loyal to your product or service.
+                A thoughtful UX design doesn&apos;t just solve immediate problems—it anticipates future needs. By thinking ahead and considering how users&apos; behaviors might evolve, you can design an experience that adapts over time, ensuring continued engagement. The more users feel that their needs are being met effortlessly, the more likely they are to remain loyal to your product or service.
               </p>
             </div>
           </div>

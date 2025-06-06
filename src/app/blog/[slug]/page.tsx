@@ -122,7 +122,7 @@ export default function BlogPost() {
                 Consistency is essential in establishing a smooth user flow. This means maintaining consistent layouts, visual cues, and interactions across all pages or screens. Whether users are exploring your homepage or completing a purchase, a cohesive experience helps them stay focused and confident in their actions, increasing their overall satisfaction.
               </p>
               <p>
-                Small details, such as button placement, typography, and visual hierarchy, can greatly impact how users interact with your site. By making thoughtful design choices that prioritize clarity and ease of use, you minimize cognitive load and keep users engaged. When users can navigate effortlessly, they're more likely to spend time exploring your content or completing desired actions.
+                Small details, such as button placement, typography, and visual hierarchy, can greatly impact how users interact with your site. By making thoughtful design choices that prioritize clarity and ease of use, you minimize cognitive load and keep users engaged. When users can navigate effortlessly, they&apos;re more likely to spend time exploring your content or completing desired actions.
               </p>
             </div>
           </div>
@@ -134,7 +134,7 @@ export default function BlogPost() {
             </h2>
             <div className="text-white/60 text-base sm:text-lg lg:text-[20px] leading-[180%] font-inter space-y-10">
               <p>
-                Thoughtful UX design goes beyond functionality—it taps into users' emotions. Engagement is not just about making a website usable; it's about creating an emotional connection that resonates with the user. By incorporating elements of storytelling, visual appeal, and interactive features, you can evoke positive emotions that strengthen user engagement and loyalty.
+                Thoughtful UX design goes beyond functionality—it taps into users&apos; emotions. Engagement is not just about making a website usable; it&apos;s about creating an emotional connection that resonates with the user. By incorporating elements of storytelling, visual appeal, and interactive features, you can evoke positive emotions that strengthen user engagement and loyalty.
               </p>
               <p>
                 Designing for emotion means considering how users feel at each stage of their journey. From welcoming new users with an intuitive onboarding process to celebrating a successful purchase with a personalized confirmation page, every interaction is an opportunity to foster connection. Thoughtful micro-interactions, such as subtle animations or encouraging messages, can add delight and reinforce a positive experience.

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
+import Header_mini from "@/components/Header_mini";
 import { Inter } from "next/font/google";
 import { Metadata } from "next";
 import Footer from "@/components/Footer";
@@ -70,42 +70,7 @@ export default function Contact() {
         {/* Right Side Column */}
         <div className="w-full lg:w-1/2">
           {/* Header */}
-          <header className="flex flex-col sm:flex-row lg:flex-col xl:flex-row justify-between items-center px-6 sm:px-12 lg:px-24 pt-8 lg:pt-16 w-full">
-            <nav className="flex items-center gap-4 sm:gap-8">
-              <Link
-                href="/about"
-                className="text-white font-inter font-semibold text-lg sm:text-[22px] leading-none hover:text-[#DE063A] transition-colors duration-300"
-              >
-                О нас
-              </Link>
-              <Link
-                href="#"
-                className="text-white font-inter font-semibold text-lg sm:text-[22px] leading-none hover:text-[#DE063A] transition-colors duration-300"
-              >
-                Проекты
-              </Link>
-              <Link
-                href="#"
-                className="text-white font-inter font-semibold text-lg sm:text-[22px] leading-none hover:text-[#DE063A] transition-colors duration-300"
-              >
-                Медиа
-              </Link>
-              <Link
-                href="/blog"
-                className="text-white font-inter font-semibold text-lg sm:text-[22px] leading-none hover:text-[#DE063A] transition-colors duration-300"
-              >
-                Блог
-              </Link>
-            </nav>
-            <div className="flex flex-col gap-0.5 justify-center mt-4 sm:mt-0 lg:mt-4 xl:mt-0 xl:mr-0 2xl:-mr-[21px]">
-              <Link
-                href="/contact"
-                className="text-white font-inter font-semibold text-lg sm:text-[22px] leading-none underline underline-offset-5 decoration-2 hover:text-[#DE063A] transition-colors duration-300"
-              >
-                Связаться
-              </Link>
-            </div>
-          </header>
+          <Header_mini />
 
           {/* Right Side - Form */}
           <div className="bg-[#0E1011] flex flex-col items-center">

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -55,154 +56,166 @@ export default function Blog() {
       {/* Blog Grid */}
       <section className="w-full flex flex-wrap">
         {/* Article 1 */}
-        <article className="w-full md:w-1/2 lg:w-1/3 xl:w-1/3 relative bg-[#0E1011]">
-          <div className="relative w-full aspect-square overflow-hidden">
-            <Image
-              src="/images/blog_img1.jpg"
-              alt="Почему продуманный дизайн продает"
-              fill
-              className="object-cover"
-            />
-          </div>
-          <div className="p-8 md:p-20 flex flex-col gap-12 bg-[#0E1011]">
-            <span className="text-white/60 text-xl md:text-[30px] font-geometria font-normal leading-none">
-              (Креативный директор)
-            </span>
-            <div className="flex flex-col gap-4">
-              <h2 className="text-white text-3xl xl:text-[36px] 2xl:text-[48px] font-geometria font-bold uppercase leading-[1.3]">
-                ПОЧЕМУ ПРОДУМАННЫЙ ДИЗАЙН ПРОДАЕТ
-              </h2>
-              <p className="text-white text-lg md:text-[22px] font-inter font-normal leading-[1.7]">
-                Discover key strategies to create a memorable and impactful brand for your small business.
-              </p>
+        <Link href="/blog/pochemu-produmannyj-dizajn-prodaet" className="w-full md:w-1/2 lg:w-1/3 xl:w-1/3 group">
+          <article className="relative bg-[#0E1011] transition-colors duration-300 group-hover:bg-white h-full">
+            <div className="relative w-full aspect-square overflow-hidden">
+              <Image
+                src="/images/blog_img1.jpg"
+                alt="Почему продуманный дизайн продает"
+                fill
+                className="object-cover transition-transform duration-500 group-hover:scale-110"
+              />
             </div>
-          </div>
-        </article>
+            <div className="p-8 md:p-20 flex flex-col gap-12 bg-inherit">
+              <span className="text-white/60 group-hover:text-black/60 text-xl md:text-[30px] font-geometria font-normal leading-none transition-colors duration-300">
+                (Креативный директор)
+              </span>
+              <div className="flex flex-col gap-4">
+                <h2 className="text-white group-hover:text-black text-3xl xl:text-[36px] 2xl:text-[48px] font-geometria font-bold uppercase leading-[1.3] transition-colors duration-300">
+                  ПОЧЕМУ ПРОДУМАННЫЙ ДИЗАЙН ПРОДАЕТ
+                </h2>
+                <p className="text-white group-hover:text-black text-lg md:text-[22px] font-inter font-normal leading-[1.7] transition-colors duration-300">
+                  Discover key strategies to create a memorable and impactful brand for your small business.
+                </p>
+              </div>
+            </div>
+          </article>
+        </Link>
 
         {/* Article 2 */}
-        <article className="w-full md:w-1/2 lg:w-1/3 xl:w-1/3 relative bg-[#181A1B]">
-          <div className="relative w-full aspect-square overflow-hidden">
-            <Image
-              src="/images/blog_img2.jpg"
-              alt="Со сложного языка в простой визуал"
-              fill
-              className="object-cover"
-            />
-          </div>
-          <div className="p-8 md:p-20 flex flex-col gap-12 bg-[#181A1B]">
-            <span className="text-white/60 text-xl md:text-[30px] font-geometria font-normal leading-none">
-              (Креативный директор)
-            </span>
-            <div className="flex flex-col gap-4">
-              <h2 className="text-white text-3xl xl:text-[36px] 2xl:text-[48px] font-geometria font-bold uppercase leading-[1.3]">
-                СО СЛОЖНОГО ЯЗЫКА В ПРОСТОЙ ВИЗУАЛ
-              </h2>
-              <p className="text-white/60 text-lg md:text-[22px] font-inter font-normal leading-[1.7]">
-                Learn practical tips for designing websites that are both visually appealing and user-friendly.
-              </p>
+        <Link href="/blog/so-slozhnogo-yazyka-v-prostoj-vizual" className="w-full md:w-1/2 lg:w-1/3 xl:w-1/3 group">
+          <article className="relative bg-[#181A1B] transition-colors duration-300 group-hover:bg-white h-full">
+            <div className="relative w-full aspect-square overflow-hidden">
+              <Image
+                src="/images/blog_img2.jpg"
+                alt="Со сложного языка в простой визуал"
+                fill
+                className="object-cover transition-transform duration-500 group-hover:scale-110"
+              />
             </div>
-          </div>
-        </article>
+            <div className="p-8 md:p-20 flex flex-col gap-12 bg-inherit">
+              <span className="text-white/60 group-hover:text-black/60 text-xl md:text-[30px] font-geometria font-normal leading-none transition-colors duration-300">
+                (Креативный директор)
+              </span>
+              <div className="flex flex-col gap-4">
+                <h2 className="text-white group-hover:text-black text-3xl xl:text-[36px] 2xl:text-[48px] font-geometria font-bold uppercase leading-[1.3] transition-colors duration-300">
+                  СО СЛОЖНОГО ЯЗЫКА В ПРОСТОЙ ВИЗУАЛ
+                </h2>
+                <p className="text-white/60 group-hover:text-black/60 text-lg md:text-[22px] font-inter font-normal leading-[1.7] transition-colors duration-300">
+                  Learn practical tips for designing websites that are both visually appealing and user-friendly.
+                </p>
+              </div>
+            </div>
+          </article>
+        </Link>
 
         {/* Article 3 */}
-        <article className="w-full md:w-1/2 lg:w-1/3 xl:w-1/3 relative bg-[#1F2122]">
-          <div className="relative w-full aspect-square overflow-hidden">
-            <Image
-              src="/images/blog_img3.jpg"
-              alt="Правильные фото экономят бюджет"
-              fill
-              className="object-cover"
-            />
-          </div>
-          <div className="p-8 md:p-20 flex flex-col gap-12 bg-[#1F2122]">
-            <span className="text-white/60 text-xl md:text-[30px] font-geometria font-normal leading-none">
-              (Креативный директор)
-            </span>
-            <div className="flex flex-col gap-4">
-              <h2 className="text-white text-3xl xl:text-[36px] 2xl:text-[48px] font-geometria font-bold uppercase leading-[1.3]">
-                ПРАВИЛЬНЫЕ ФОТО ЭКОНОМЯТ БЮДЖЕТ
-              </h2>
-              <p className="text-white/60 text-lg md:text-[22px] font-inter font-normal leading-[1.7]">
-                Explore why responsive design is crucial for enhancing experience and increasing conversions.
-              </p>
+        <Link href="/blog/pravilnye-foto-ekonomyat-byudzhet" className="w-full md:w-1/2 lg:w-1/3 xl:w-1/3 group">
+          <article className="relative bg-[#1F2122] transition-colors duration-300 group-hover:bg-white h-full">
+            <div className="relative w-full aspect-square overflow-hidden">
+              <Image
+                src="/images/blog_img3.jpg"
+                alt="Правильные фото экономят бюджет"
+                fill
+                className="object-cover transition-transform duration-500 group-hover:scale-110"
+              />
             </div>
-          </div>
-        </article>
+            <div className="p-8 md:p-20 flex flex-col gap-12 bg-inherit">
+              <span className="text-white/60 group-hover:text-black/60 text-xl md:text-[30px] font-geometria font-normal leading-none transition-colors duration-300">
+                (Креативный директор)
+              </span>
+              <div className="flex flex-col gap-4">
+                <h2 className="text-white group-hover:text-black text-3xl xl:text-[36px] 2xl:text-[48px] font-geometria font-bold uppercase leading-[1.3] transition-colors duration-300">
+                  ПРАВИЛЬНЫЕ ФОТО ЭКОНОМЯТ БЮДЖЕТ
+                </h2>
+                <p className="text-white/60 group-hover:text-black/60 text-lg md:text-[22px] font-inter font-normal leading-[1.7] transition-colors duration-300">
+                  Explore why responsive design is crucial for enhancing experience and increasing conversions.
+                </p>
+              </div>
+            </div>
+          </article>
+        </Link>
 
         {/* Article 4 */}
-        <article className="w-full md:w-1/2 lg:w-1/3 xl:w-1/3 relative bg-[#181A1B]">
-          <div className="relative w-full aspect-square overflow-hidden">
-            <Image
-              src="/images/blog_img4.jpg"
-              alt="UMEX & SIMTEX 2024"
-              fill
-              className="object-cover"
-            />
-          </div>
-          <div className="p-8 md:p-20 flex flex-col gap-12 bg-[#181A1B]">
-            <span className="text-white/60 text-xl md:text-[30px] font-geometria font-normal leading-none">
-              (Креативный директор)
-            </span>
-            <div className="flex flex-col gap-4">
-              <h2 className="text-white text-3xl xl:text-[36px] 2xl:text-[48px] font-geometria font-bold uppercase leading-[1.3]">
-                UMEX & SIMTEX 2024
-              </h2>
-              <p className="text-white/60 text-lg md:text-[22px] font-inter font-normal leading-[1.7]">
-                Подготовили компанию «АЭРОМАКС» и сопроводили на выставке в Абу Даби. Создали стильный и продающий контент.
-              </p>
+        <Link href="/blog/umex-simtex-2024" className="w-full md:w-1/2 lg:w-1/3 xl:w-1/3 group">
+          <article className="relative bg-[#181A1B] transition-colors duration-300 group-hover:bg-white h-full">
+            <div className="relative w-full aspect-square overflow-hidden">
+              <Image
+                src="/images/blog_img4.jpg"
+                alt="UMEX & SIMTEX 2024"
+                fill
+                className="object-cover transition-transform duration-500 group-hover:scale-110"
+              />
             </div>
-          </div>
-        </article>
+            <div className="p-8 md:p-20 flex flex-col gap-12 bg-inherit">
+              <span className="text-white/60 group-hover:text-black/60 text-xl md:text-[30px] font-geometria font-normal leading-none transition-colors duration-300">
+                (Креативный директор)
+              </span>
+              <div className="flex flex-col gap-4">
+                <h2 className="text-white group-hover:text-black text-3xl xl:text-[36px] 2xl:text-[48px] font-geometria font-bold uppercase leading-[1.3] transition-colors duration-300">
+                  UMEX & SIMTEX 2024
+                </h2>
+                <p className="text-white/60 group-hover:text-black/60 text-lg md:text-[22px] font-inter font-normal leading-[1.7] transition-colors duration-300">
+                  Подготовили компанию «АЭРОМАКС» и сопроводили на выставке в Абу Даби. Создали стильный и продающий контент.
+                </p>
+              </div>
+            </div>
+          </article>
+        </Link>
 
         {/* Article 5 */}
-        <article className="w-full md:w-1/2 lg:w-1/3 xl:w-1/3 relative bg-[#1F2122]">
-          <div className="relative w-full aspect-square overflow-hidden">
-            <Image
-              src="/images/blog_img5.jpg"
-              alt="Организация визита первого лица"
-              fill
-              className="object-cover"
-            />
-          </div>
-          <div className="p-8 md:p-20 flex flex-col gap-12 bg-[#1F2122]">
-            <span className="text-white/60 text-xl md:text-[30px] font-geometria font-normal leading-none">
-              (Креативный директор)
-            </span>
-            <div className="flex flex-col gap-4">
-              <h2 className="text-white text-3xl xl:text-[36px] 2xl:text-[48px] font-geometria font-bold uppercase leading-[1.3]">
-                ОРГАНИЗАЦИЯ ВИЗИТА ПЕРВОГО ЛИЦА
-              </h2>
-              <p className="text-white/60 text-lg md:text-[22px] font-inter font-normal leading-[1.7]">
-                В сопровождении мэра столицы Сергея Собянина Президент побывал в цехе производства БПЛА.
-              </p>
+        <Link href="/blog/organizaciya-vizita-pervogo-lica" className="w-full md:w-1/2 lg:w-1/3 xl:w-1/3 group">
+          <article className="relative bg-[#1F2122] transition-colors duration-300 group-hover:bg-white h-full">
+            <div className="relative w-full aspect-square overflow-hidden">
+              <Image
+                src="/images/blog_img5.jpg"
+                alt="Организация визита первого лица"
+                fill
+                className="object-cover transition-transform duration-500 group-hover:scale-110"
+              />
             </div>
-          </div>
-        </article>
+            <div className="p-8 md:p-20 flex flex-col gap-12 bg-inherit">
+              <span className="text-white/60 group-hover:text-black/60 text-xl md:text-[30px] font-geometria font-normal leading-none transition-colors duration-300">
+                (Креативный директор)
+              </span>
+              <div className="flex flex-col gap-4">
+                <h2 className="text-white group-hover:text-black text-3xl xl:text-[36px] 2xl:text-[48px] font-geometria font-bold uppercase leading-[1.3] transition-colors duration-300">
+                  ОРГАНИЗАЦИЯ ВИЗИТА ПЕРВОГО ЛИЦА
+                </h2>
+                <p className="text-white/60 group-hover:text-black/60 text-lg md:text-[22px] font-inter font-normal leading-[1.7] transition-colors duration-300">
+                  В сопровождении мэра столицы Сергея Собянина Президент побывал в цехе производства БПЛА.
+                </p>
+              </div>
+            </div>
+          </article>
+        </Link>
 
         {/* Article 6 */}
-        <article className="w-full md:w-1/2 lg:w-1/3 xl:w-1/3 relative bg-[#181A1B]">
-          <div className="relative w-full aspect-square overflow-hidden bg-[#0E1011]">
-            <Image
-              src="/images/blog_img6.jpg"
-              alt="Участие в стратсессии руднево"
-              fill
-              className="object-cover"
-            />
-          </div>
-          <div className="p-8 md:p-20 flex flex-col gap-12 bg-[#181A1B]">
-            <span className="text-white/60 text-xl md:text-[30px] font-geometria font-normal leading-none">
-              (Креативный директор)
-            </span>
-            <div className="flex flex-col gap-4">
-              <h2 className="text-white text-3xl xl:text-[36px] 2xl:text-[48px] font-geometria font-bold uppercase leading-[1.3]">
-                УЧАСТИЕ В СТРАТСЕССИИ РУДНЕВО
-              </h2>
-              <p className="text-white/60 text-lg md:text-[22px] font-inter font-normal leading-[1.7]">
-                Организовали съёмку стратегической сессии в ОЭЦ «Технополис Москва» в Руднево с участием С.С. Собянина
-              </p>
+        <Link href="/blog/uchastie-v-stratsessii-rudnevo" className="w-full md:w-1/2 lg:w-1/3 xl:w-1/3 group">
+          <article className="relative bg-[#181A1B] transition-colors duration-300 group-hover:bg-white h-full">
+            <div className="relative w-full aspect-square overflow-hidden">
+              <Image
+                src="/images/blog_img6.jpg"
+                alt="Участие в стратсессии руднево"
+                fill
+                className="object-cover transition-transform duration-500 group-hover:scale-110"
+              />
             </div>
-          </div>
-        </article>
+            <div className="p-8 md:p-20 flex flex-col gap-12 bg-inherit">
+              <span className="text-white/60 group-hover:text-black/60 text-xl md:text-[30px] font-geometria font-normal leading-none transition-colors duration-300">
+                (Креативный директор)
+              </span>
+              <div className="flex flex-col gap-4">
+                <h2 className="text-white group-hover:text-black text-3xl xl:text-[36px] 2xl:text-[48px] font-geometria font-bold uppercase leading-[1.3] transition-colors duration-300">
+                  УЧАСТИЕ В СТРАТСЕССИИ РУДНЕВО
+                </h2>
+                <p className="text-white/60 group-hover:text-black/60 text-lg md:text-[22px] font-inter font-normal leading-[1.7] transition-colors duration-300">
+                  Организовали съёмку стратегической сессии в ОЭЦ «Технополис Москва» в Руднево с участием С.С. Собянина
+                </p>
+              </div>
+            </div>
+          </article>
+        </Link>
       </section>
 
       {/* Include Footer Component */}

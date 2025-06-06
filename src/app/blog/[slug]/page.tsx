@@ -184,7 +184,7 @@ export default function BlogPost() {
                       UMEX & SIMTEX 2024
                     </h3>
                     <p className="text-white/60 group-hover:text-black/60 text-base sm:text-lg lg:text-[22px] leading-[170%] font-inter transition-colors duration-300">
-                      Подготовили компанию «АЭРОМАКС» и сопроводили на выставке в Абу Даби. Создали стильный и продающий контент.
+                      Подготовили компанию &laquo;АЭРОМАКС&raquo; и сопроводили на выставке в Абу Даби. Создали стильный и продающий контент.
                     </p>
                   </div>
                 </div>
@@ -240,7 +240,7 @@ export default function BlogPost() {
                       УЧАСТИЕ В СТРАТСЕССИИ РУДНЕВО
                     </h3>
                     <p className="text-white/60 group-hover:text-black/60 text-base sm:text-lg lg:text-[22px] leading-[170%] font-inter transition-colors duration-300">
-                      Организовали съёмку стратегической сессии в ОЭЦ «Технополис Москва» в Руднево с участием С.С. Собянина
+                      Организовали съёмку стратегической сессии в ОЭЦ &laquo;Технополис Москва&raquo; в Руднево с участием С.С. Собянина
                     </p>
                   </div>
                 </div>

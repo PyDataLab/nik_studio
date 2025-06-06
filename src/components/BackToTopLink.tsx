@@ -36,7 +36,7 @@ export default function BackToTopLink() {
           e.preventDefault();
           scrollToTop();
         }}
-        className="text-[#0E1011] text-[22px] font-semibold font-inter hover:opacity-60 underline underline-offset-5 decoration-2"
+        className="text-[#0E1011] text-[22px] font-semibold font-inter hover:text-[#DE063A] transition-colors duration-300 underline underline-offset-5 decoration-2"
       >
         Back to Top
       </Link>      

@@ -26,116 +26,116 @@ export default function Footer() {
           {/* Navigation Lists */}
           <div className="flex flex-col gap-12 lg:gap-24 w-full mt-12 sm:mt-24 lg:mt-[203px]">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12 xl:gap-24 2xl:gap-26 w-full">
-              {/* Pages */}
+              {/* Страницы */}
               <div className="flex flex-col gap-4 lg:gap-8 self-stretch">
                 <h3 className="text-[#0E1011]/60 text-xl lg:text-[30px] font-geometria font-normal leading-[100%] w-full lg:w-[360px] lg:h-[30px] self-stretch flex-grow-0">
-                  (Pages)
+                  Страницы
                 </h3>
                 <nav className="flex flex-col gap-2 lg:gap-4">
                   <Link
-                    href="#"
-                    className="text-[#0E1011] hover:opacity-60 text-xl lg:text-[26px] font-inter font-semibold leading-[130%] w-full lg:w-[360px] lg:h-[34px] self-stretch flex-grow-0 transition-opacity duration-300"
+                    href="/"
+                    className="text-[#0E1011] hover:text-[#DE063A] text-xl lg:text-[26px] font-inter font-semibold leading-[130%] w-full lg:w-[360px] lg:h-[34px] self-stretch flex-grow-0 transition-colors duration-300"
                   >
-                    Home
+                    Главная
                   </Link>
                   <Link
-                    href="#"
-                    className="text-[#0E1011] hover:opacity-60 text-xl lg:text-[26px] font-inter font-semibold leading-[130%] w-full lg:w-[360px] lg:h-[34px] self-stretch flex-grow-0 transition-opacity duration-300"
+                    href="/about"
+                    className="text-[#0E1011] hover:text-[#DE063A] text-xl lg:text-[26px] font-inter font-semibold leading-[130%] w-full lg:w-[360px] lg:h-[34px] self-stretch flex-grow-0 transition-colors duration-300"
                   >
-                    Service
+                    О нас
                   </Link>
                   <Link
-                    href="#"
-                    className="text-[#0E1011] hover:opacity-60 text-xl lg:text-[26px] font-inter font-semibold leading-[130%] w-full lg:w-[360px] lg:h-[34px] self-stretch flex-grow-0 transition-opacity duration-300"
+                    href="/blog"
+                    className="text-[#0E1011] hover:text-[#DE063A] text-xl lg:text-[26px] font-inter font-semibold leading-[130%] w-full lg:w-[360px] lg:h-[34px] self-stretch flex-grow-0 transition-colors duration-300"
                   >
-                    Studio
+                    Блог
                   </Link>
                   <Link
-                    href="#"
-                    className="text-[#0E1011] hover:opacity-60 text-xl lg:text-[26px] font-inter font-semibold leading-[130%] w-full lg:w-[360px] lg:h-[34px] self-stretch flex-grow-0 transition-opacity duration-300"
+                    href="/contact"
+                    className="text-[#0E1011] hover:text-[#DE063A] text-xl lg:text-[26px] font-inter font-semibold leading-[130%] w-full lg:w-[360px] lg:h-[34px] self-stretch flex-grow-0 transition-colors duration-300"
                   >
-                    Contact
+                    Связаться
                   </Link>
                 </nav>
               </div>
 
-              {/* CMS */}
+              {/* Проекты */}
               <div className="flex flex-col gap-4 lg:gap-8 self-stretch">
                 <h3 className="text-[#0E1011]/60 text-xl lg:text-[30px] font-geometria font-normal leading-[100%] w-full lg:w-[360px] lg:h-[30px] self-stretch flex-grow-0">
-                  (CMS)
+                  Проекты
                 </h3>
                 <nav className="flex flex-col gap-2 lg:gap-4">
                   <Link
                     href="#"
-                    className="text-[#0E1011] hover:opacity-60 text-xl lg:text-[26px] font-inter font-semibold leading-[130%] w-full lg:w-[360px] lg:h-[34px] self-stretch flex-grow-0 transition-opacity duration-300"
+                    className="text-[#0E1011] hover:text-[#DE063A] text-xl lg:text-[26px] font-inter font-semibold leading-[130%] w-full lg:w-[360px] lg:h-[34px] self-stretch flex-grow-0 transition-colors duration-300"
                   >
-                    Work
+                    Проекты под ключ
                   </Link>
                   <Link
                     href="#"
-                    className="text-[#0E1011] hover:opacity-60 text-xl lg:text-[26px] font-inter font-semibold leading-[130%] w-full lg:w-[360px] lg:h-[34px] self-stretch flex-grow-0 transition-opacity duration-300"
+                    className="text-[#0E1011] hover:text-[#DE063A] text-xl lg:text-[26px] font-inter font-semibold leading-[130%] w-full lg:w-[360px] lg:h-[34px] self-stretch flex-grow-0 transition-colors duration-300"
                   >
-                    Work Single
+                    Брендинг
+                  </Link>
+                  <Link
+                    href="/blog"
+                    className="text-[#0E1011] hover:text-[#DE063A] text-xl lg:text-[26px] font-inter font-semibold leading-[130%] w-full lg:w-[360px] lg:h-[34px] self-stretch flex-grow-0 transition-colors duration-300"
+                  >
+                    Дизайн
                   </Link>
                   <Link
                     href="#"
-                    className="text-[#0E1011] hover:opacity-60 text-xl lg:text-[26px] font-inter font-semibold leading-[130%] w-full lg:w-[360px] lg:h-[34px] self-stretch flex-grow-0 transition-opacity duration-300"
+                    className="text-[#0E1011] hover:text-[#DE063A] text-xl lg:text-[26px] font-inter font-semibold leading-[130%] w-full lg:w-[360px] lg:h-[34px] self-stretch flex-grow-0 transition-colors duration-300"
                   >
-                    Blog
-                  </Link>
-                  <Link
-                    href="#"
-                    className="text-[#0E1011] hover:opacity-60 text-xl lg:text-[26px] font-inter font-semibold leading-[130%] w-full lg:w-[360px] lg:h-[34px] self-stretch flex-grow-0 transition-opacity duration-300"
-                  >
-                    Blog Single
+                    3д графика
                   </Link>
                 </nav>
               </div>
 
-              {/* Utility Pages */}
+              {/* Медиа */}
               <div className="flex flex-col gap-4 lg:gap-8 self-stretch mt-8 sm:mt-0">
                 <h3 className="text-[#0E1011]/60 text-xl lg:text-[30px] font-geometria font-normal leading-[100%] w-full lg:w-[360px] lg:h-[30px] self-stretch flex-grow-0">
-                  (Utility Pages)
+                  Фото
                 </h3>
                 <nav className="flex flex-col gap-2 lg:gap-4">
                   <Link
                     href="#"
-                    className="text-[#0E1011] hover:opacity-60 text-xl lg:text-[26px] font-inter font-semibold leading-[130%] w-full lg:w-[360px] lg:h-[34px] self-stretch flex-grow-0 transition-opacity duration-300"
+                    className="text-[#0E1011] hover:text-[#DE063A] text-xl lg:text-[26px] font-inter font-semibold leading-[130%] w-full lg:w-[360px] lg:h-[34px] self-stretch flex-grow-0 transition-colors duration-300"
                   >
-                    404
+                    Видео
                   </Link>
                   <Link
                     href="#"
-                    className="text-[#0E1011] hover:opacity-60 text-xl lg:text-[26px] font-inter font-semibold leading-[130%] w-full lg:w-[360px] lg:h-[34px] self-stretch flex-grow-0 transition-opacity duration-300"
+                    className="text-[#0E1011] hover:text-[#DE063A] text-xl lg:text-[26px] font-inter font-semibold leading-[130%] w-full lg:w-[360px] lg:h-[34px] self-stretch flex-grow-0 transition-colors duration-300"
                   >
-                    Licensing
+                    Сайты
                   </Link>
                 </nav>
               </div>
 
-              {/* Socials */}
+              {/* Социальные сети */}
               <div className="flex flex-col gap-4 lg:gap-8 self-stretch mt-8 sm:mt-0">
                 <h3 className="text-[#0E1011]/60 text-xl lg:text-[30px] font-geometria font-normal leading-[100%] w-full lg:w-[360px] lg:h-[30px] self-stretch flex-grow-0">
-                  (Socials)
+                  Социальные сети
                 </h3>
                 <nav className="flex flex-col gap-2 lg:gap-4">
                   <Link
                     href="#"
-                    className="text-[#0E1011] hover:opacity-60 text-xl lg:text-[26px] font-inter font-semibold leading-[130%] w-full lg:w-[360px] lg:h-[34px] self-stretch flex-grow-0 transition-opacity duration-300"
+                    className="text-[#0E1011] hover:text-[#DE063A] text-xl lg:text-[26px] font-inter font-semibold leading-[130%] w-full lg:w-[360px] lg:h-[34px] self-stretch flex-grow-0 transition-colors duration-300"
                   >
                     Instagram
                   </Link>
                   <Link
                     href="#"
-                    className="text-[#0E1011] hover:opacity-60 text-xl lg:text-[26px] font-inter font-semibold leading-[130%] w-full lg:w-[360px] lg:h-[34px] self-stretch flex-grow-0 transition-opacity duration-300"
+                    className="text-[#0E1011] hover:text-[#DE063A] text-xl lg:text-[26px] font-inter font-semibold leading-[130%] w-full lg:w-[360px] lg:h-[34px] self-stretch flex-grow-0 transition-colors duration-300"
                   >
-                    Behance
+                    Вконтакте
                   </Link>
                   <Link
                     href="#"
-                    className="text-[#0E1011] hover:opacity-60 text-xl lg:text-[26px] font-inter font-semibold leading-[130%] w-full lg:w-[360px] lg:h-[34px] self-stretch flex-grow-0 transition-opacity duration-300"
+                    className="text-[#0E1011] hover:text-[#DE063A] text-xl lg:text-[26px] font-inter font-semibold leading-[130%] w-full lg:w-[360px] lg:h-[34px] self-stretch flex-grow-0 transition-colors duration-300"
                   >
-                    Dribbble
+                    Телеграмм
                   </Link>
                 </nav>
               </div>
@@ -150,9 +150,8 @@ export default function Footer() {
               href="https://www.golatemplate.com" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-[#0E1011] text-lg sm:text-[22px] font-semibold font-inter hover:opacity-60 underline underline-offset-5 decoration-2 transition-opacity duration-300"
+              className="text-[#0E1011] text-lg sm:text-[22px] font-semibold font-inter hover:text-[#DE063A] underline underline-offset-5 decoration-2 transition-colors duration-300"
             >
-              By Gola Templates
             </Link>
           </div>
           <BackToTopLink />

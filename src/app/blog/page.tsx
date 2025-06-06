@@ -1,8 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Inter } from "next/font/google";
+import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Metadata } from "next";
+
 
 const inter = Inter({
   weight: ["400", "600"],
@@ -37,56 +39,7 @@ export default function Blog() {
   return (
     <main className={`relative flex flex-col min-h-screen bg-[#0E1011] max-w-[1920px] w-full mx-auto ${inter.variable}`}>
       {/* Header */}
-      <header className="flex flex-col sm:flex-row justify-between items-center px-6 sm:px-12 lg:px-24 pt-16 w-full absolute top-0 left-0 right-0 z-10">
-        {/* Logo */}
-        <Link href="/">
-          <Image
-            src="/images/logo_header.svg"
-            alt="NIK Studio Logo"
-            width={82}
-            height={30}
-            className="text-[#DE063A]"
-          />
-        </Link>
-
-        {/* Navigation */}
-        <nav className="flex sm:flex-row flex-col items-center gap-6 md:gap-12 -ml-[10px] sm:mt-0 mt-4">
-          <Link
-            href="#"
-            className="text-white font-inter font-semibold text-lg md:text-[22px] leading-none hover:text-[#DE063A] transition-colors duration-300"
-          >
-            Projects
-          </Link>
-          <Link
-            href="#"
-            className="text-white font-inter font-semibold text-lg md:text-[22px] leading-none hover:text-[#DE063A] transition-colors duration-300"
-          >
-            Services
-          </Link>
-          <Link
-            href="#"
-            className="text-white font-inter font-semibold text-lg md:text-[22px] leading-none hover:text-[#DE063A] transition-colors duration-300"
-          >
-            Studio
-          </Link>
-          <Link
-            href="#"
-            className="text-white font-inter font-semibold text-lg md:text-[22px] leading-none hover:text-[#DE063A] transition-colors duration-300"
-          >
-            Journal
-          </Link>
-        </nav>
-
-        {/* CTA Button */}
-        <div className="flex flex-col gap-0.5 justify-center 2xl:-mr-[21px] sm:mt-0 mt-4">
-          <Link
-            href="#"
-            className="text-white font-inter font-semibold text-lg md:text-[22px] leading-none underline underline-offset-5 decoration-2 hover:text-[#DE063A] transition-colors duration-300"
-          >
-            Let&apos;s Talk
-          </Link>
-        </div>
-      </header>
+      <Header />
 
       {/* Blog Title Section */}
       <section className="w-full pt-96 sm:pt-38 pb-24 px-6 sm:px-12 lg:px-24">

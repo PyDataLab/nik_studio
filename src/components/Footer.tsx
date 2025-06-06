@@ -66,7 +66,7 @@ export default function Footer() {
                 </h3>
                 <nav className="flex flex-col gap-2 lg:gap-4">
                   <Link
-                    href="#"
+                    href="/projects"
                     className="text-[#0E1011] hover:text-[#DE063A] text-xl lg:text-[26px] font-inter font-semibold leading-[130%] w-full lg:w-[360px] lg:h-[34px] self-stretch flex-grow-0 transition-colors duration-300"
                   >
                     Проекты под ключ

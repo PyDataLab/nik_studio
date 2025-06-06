@@ -24,7 +24,7 @@ export default function Header() {
           О нас
         </Link>
         <Link
-          href="#"
+          href="/projects"
           className="text-white font-inter font-semibold text-lg md:text-[22px] leading-none hover:text-[#DE063A] transition-colors duration-300"
         >
           Проекты

@@ -43,11 +43,11 @@ export default function Home() {
               </Link>
               
               <div className="flex flex-col gap-8 lg:gap-10 lg:mt-[38px]">
-                <p className="text-white font-geometria text-[30px] leading-[100%] w-full lg:w-[400px] xl:w-[500px] 2xl:w-[768px] max-w-full-3xl h-[90px] font-normal flex-none self-stretch">
+                <p className="text-white font-geometria text-[30px] leading-[100%] w-full lg:w-[400px] xl:w-[500px] 2xl:w-[768px] w-full-3xl h-[90px] font-normal flex-none self-stretch">
                   Комплексные решения для промышленных компаний / подготовка к отраслевым выставкам / сопровождение / вывод продукта на новый рынок
                 </p>
                 
-                <h1 className="text-white font-inter text-[40px] sm:text-[48px] leading-[130%] w-full lg:w-[400px] xl:w-[500px] 2xl:w-[768px] max-w-full-3xl h-[124px] font-semibold flex-none self-stretch mt-55 sm:mt-15 xl:mt-15 2xl:mt-0">
+                <h1 className="text-white font-inter text-[40px] sm:text-[48px] leading-[130%] w-full lg:w-[400px] xl:w-[500px] 2xl:w-[768px] w-full-3xl h-[124px] font-semibold flex-none self-stretch mt-55 sm:mt-15 xl:mt-15 2xl:mt-0">
                   Превращаем сложные технологии в понятный визуал
                 </h1>
                 <div className="text-white/60 font-inter text-[30px] leading-[100%] h-[240px] font-light flex-none mt-40 xl:mt-25 2xl:mt-0">
@@ -72,11 +72,11 @@ export default function Home() {
             <p className="text-white font-geometria text-lg lg:text-[30px]">дизайн-бюро NIKstudio</p>
             
             <div className="flex flex-col gap-4 lg:gap-8 lg:-mt-[10px]">
-              <h2 className="text-white font-geometria font-bold xl:text-[60px] 2xl:text-[80px] leading-[110%] w-full sm:w-[500px] 2xl:w-[768px] max-w-full-3xl h-[352px] uppercase flex-none self-stretch">
+              <h2 className="text-white font-geometria font-bold xl:text-[60px] 2xl:text-[80px] leading-[110%] w-full sm:w-[500px] 2xl:w-[768px] w-full-3xl h-[352px] uppercase flex-none self-stretch">
                 комплексные решения, мощный визуал
               </h2>
               
-              <div className="text-white/60 font-inter text-[22px] leading-[170%] w-full lg:w-[400px] xl:w-[500px] 2xl:w-[768px] max-w-full-3xl font-normal flex-none self-stretch -mt-[300px] sm:-mt-[10px]">
+              <div className="text-white/60 font-inter text-[22px] leading-[170%] w-full lg:w-[400px] xl:w-[500px] 2xl:w-[768px] w-full-3xl font-normal flex-none self-stretch -mt-[300px] sm:-mt-[10px]">
                 <p>
                   Мы помогаем технологичным и производственным компаниям выглядеть ярко и понятно. Создаём дизайн, который работает — от логотипа до выставочного стенда, от презентации до 3D-видео.
                 </p>

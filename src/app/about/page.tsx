@@ -45,7 +45,7 @@ export default function About() {
           <h1 className="text-white text-[88px] sm:text-[200px] 2xl:text-[280px] 3xl:text-[320px] font-geometria font-extrabold uppercase leading-[100%]">
             о нас
           </h1>
-          <p className="mt-[10px] text-white text-2xl sm:text-4xl md:text-6xl lg:text-[80px] 3xl:text-[100px] font-inter font-semibold leading-[1.2] tracking-[-0.025em] max-w-[1400px] max-w-custom-3xl">
+          <p className="mt-[10px] text-white text-2xl sm:text-4xl md:text-6xl lg:text-[80px] 3xl:text-[100px] font-inter font-semibold leading-[1.2] tracking-[-0.025em] max-w-[1400px] max-w-full-3xl">
             Создаём эффектный визуал, понимаем продукт, разрабатываем смыслы, доносим суть
           </p>
         </div>

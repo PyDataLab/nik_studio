@@ -153,7 +153,7 @@ export default function BlogPost() {
           <h2 className="text-white text-6xl sm:text-8xl xl:text-[200px] 2xl:text-[280px] 3xl:text-[320px] font-bold uppercase leading-[100%] font-geometria">
             ЕЩЁ НОВОСТИ
           </h2>
-          <p className="text-white text-2xl sm:text-4xl lg:text-[80px] 3xl:text-[100px] font-semibold leading-[120%] font-inter max-w-[1400px] max-w-custom-3xl mt-6 sm:mt-8 lg:mt-2 3xl:mt-4">
+          <p className="text-white text-2xl sm:text-4xl lg:text-[80px] 3xl:text-[100px] font-semibold leading-[120%] font-inter max-w-[1400px] max-w-full-3xl mt-6 sm:mt-8 lg:mt-2 3xl:mt-4">
             Опыт работы с большими компаниями даёт понимание основных рабочих инструментов
           </p>
         </div>

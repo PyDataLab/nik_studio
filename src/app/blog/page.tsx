@@ -47,7 +47,7 @@ export default function Blog() {
           <h1 className="text-white text-[88px] sm:text-[200px] 2xl:text-[280px] 3xl:text-[320px] font-geometria font-extrabold uppercase leading-[100%]">
             БЛОГ
           </h1>
-          <p className="mt-[10px] text-white text-2xl sm:text-4xl md:text-6xl lg:text-[80px] 3xl:text-[100px] font-inter font-semibold leading-[1.2] tracking-[-0.025em] max-w-[1400px] 2xl:max-w-[1400px] max-w-custom-3xl">
+          <p className="mt-[10px] text-white text-2xl sm:text-4xl md:text-6xl lg:text-[80px] 3xl:text-[100px] font-inter font-semibold leading-[1.2] tracking-[-0.025em] max-w-[1400px] 2xl:max-w-[1400px] max-w-full-3xl">
             Новости и тенденции, которые помогут усовершенствовать стратегию вашего бренда.
           </p>
         </div>

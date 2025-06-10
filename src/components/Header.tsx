@@ -7,7 +7,7 @@ export default function Header() {
       {/* Logo */}
       <Link href="/">
         <Image
-          src="/images/logo_header.svg"
+          src="/images/header/logo_header.svg"
           alt="NIK Studio Logo"
           width={82}
           height={30}

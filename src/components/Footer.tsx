@@ -13,7 +13,7 @@ export default function Footer() {
             <div className="mt-10 lg:mt-[79px]">
               <Link href="/">
                 <Image
-                  src="/images/logo.svg"
+                  src="/images/footer/logo_footer.svg"
                   alt="NIK Studio Logo"
                   className="w-full max-w-[393.59px] h-auto"
                   width={393.59}

@@ -6,12 +6,12 @@ export default function Header_mini() {
       <nav className="flex items-center gap-4 sm:gap-8">
         <Link
           href="/about"
-          className="text-white font-inter font-semibold text-lg sm:text-[22px] leading-none hover:text-[#DE063A] transition-colors duration-300"
+          className="text-white font-inter font-semibold text-lg sm:text-[22px] leading-none hover:text-[#DE063A] transition-colors duration-300 whitespace-nowrap"
         >
           О нас
         </Link>
         <Link
-          href="#"
+          href="/projects"
           className="text-white font-inter font-semibold text-lg sm:text-[22px] leading-none hover:text-[#DE063A] transition-colors duration-300"
         >
           Проекты

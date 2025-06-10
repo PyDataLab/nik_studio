@@ -60,7 +60,7 @@ export default function Blog() {
           <article className="relative bg-[#0E1011] transition-colors duration-300 group-hover:bg-white h-full">
             <div className="relative w-full aspect-square overflow-hidden">
               <Image
-                src="/images/blog_img1.jpg"
+                src="/images/blog/blog_img1.jpg"
                 alt="Почему продуманный дизайн продает"
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-110"
@@ -87,7 +87,7 @@ export default function Blog() {
           <article className="relative bg-[#181A1B] transition-colors duration-300 group-hover:bg-white h-full">
             <div className="relative w-full aspect-square overflow-hidden">
               <Image
-                src="/images/blog_img2.jpg"
+                src="/images/blog/blog_img2.jpg"
                 alt="Со сложного языка в простой визуал"
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-110"
@@ -114,7 +114,7 @@ export default function Blog() {
           <article className="relative bg-[#1F2122] transition-colors duration-300 group-hover:bg-white h-full">
             <div className="relative w-full aspect-square overflow-hidden">
               <Image
-                src="/images/blog_img3.jpg"
+                src="/images/blog/blog_img3.jpg"
                 alt="Правильные фото экономят бюджет"
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-110"
@@ -141,7 +141,7 @@ export default function Blog() {
           <article className="relative bg-[#181A1B] transition-colors duration-300 group-hover:bg-white h-full">
             <div className="relative w-full aspect-square overflow-hidden">
               <Image
-                src="/images/blog_img4.jpg"
+                src="/images/blog/blog_img4.jpg"
                 alt="UMEX & SIMTEX 2024"
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-110"
@@ -168,7 +168,7 @@ export default function Blog() {
           <article className="relative bg-[#1F2122] transition-colors duration-300 group-hover:bg-white h-full">
             <div className="relative w-full aspect-square overflow-hidden">
               <Image
-                src="/images/blog_img5.jpg"
+                src="/images/blog/blog_img5.jpg"
                 alt="Организация визита первого лица"
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-110"
@@ -195,7 +195,7 @@ export default function Blog() {
           <article className="relative bg-[#181A1B] transition-colors duration-300 group-hover:bg-white h-full">
             <div className="relative w-full aspect-square overflow-hidden">
               <Image
-                src="/images/blog_img6.jpg"
+                src="/images/blog/blog_img6.jpg"
                 alt="Участие в стратсессии руднево"
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-110"

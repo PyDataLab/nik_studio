@@ -57,7 +57,7 @@ export default function Contact() {
         <div className="w-full lg:w-1/2 bg-white">
           <div className="relative w-full h-full overflow-hidden">
             <Image
-              src="/images/contact-image.png"
+              src="/images/contact/contact-image.png"
               alt="Contact Image"
               className="object-cover object-center w-full h-auto lg:h-full"
               width={1327}

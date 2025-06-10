@@ -63,7 +63,7 @@ export default function BlogPost() {
         <div className="w-full lg:w-1/2 bg-white relative h-[360px] sm:h-[540px] md:h-[720px] lg:h-[1080px]">
           <div className="relative w-full h-full overflow-hidden">
             <Image
-              src="/images/blog/blog_header_image.png"
+              src="/images/blog_single/blog_header_image.png"
               alt="Blog Post Header Image"
               className="object-cover object-center w-full h-full"
               width={1787}
@@ -168,7 +168,7 @@ export default function BlogPost() {
               <article className="bg-[#181A1B] transition-colors duration-300 group-hover:bg-white h-full flex flex-col">
                 <div className="relative w-full aspect-square overflow-hidden flex-shrink-0">
                   <Image
-                    src="/images/blog/blog_related_1.png"
+                    src="/images/blog_single/blog_related_1.png"
                     alt="UMEX & SIMTEX 2024"
                     className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-110"
                     width={640}
@@ -196,7 +196,7 @@ export default function BlogPost() {
               <article className="bg-[#1F2122] transition-colors duration-300 group-hover:bg-white h-full flex flex-col">
                 <div className="relative w-full aspect-square overflow-hidden flex-shrink-0">
                   <Image
-                    src="/images/blog/blog_related_2.png"
+                    src="/images/blog_single/blog_related_2.png"
                     alt="Организация визита первого лица"
                     className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-110"
                     width={960}
@@ -224,7 +224,7 @@ export default function BlogPost() {
               <article className="bg-[#181A1B] transition-colors duration-300 group-hover:bg-white h-full flex flex-col">
                 <div className="relative w-full aspect-square overflow-hidden flex-shrink-0 bg-white">
                   <Image
-                    src="/images/blog/blog_related_3.png"
+                    src="/images/blog_single/blog_related_3.png"
                     alt="Участие в стратсессии руднево"
                     className="object-contain w-full h-full transition-transform duration-500 group-hover:scale-110"
                     width={971}

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Inter } from "next/font/google";
+import { Cabin } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
 
@@ -19,6 +20,14 @@ const inter = Inter({
   subsets: ["cyrillic", "latin"],
   variable: "--font-inter",
   display: "swap",
+});
+
+const cabin = Cabin({
+  weight: ["500"],
+  subsets: ["latin"],
+  variable: "--font-cabin",
+  display: "swap",
+  style: "normal",
 });
 
 const geometria = localFont({
@@ -52,7 +61,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         suppressHydrationWarning
-        className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} ${geometria.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} ${geometria.variable} ${cabin.variable} antialiased`}
       >
         {children}
       </body>

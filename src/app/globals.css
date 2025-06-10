@@ -66,3 +66,33 @@ body {
   font-family: var(--font-cabin), sans-serif;
 }
 
+/* Placeholder styles */
+::placeholder {
+  color: #595959 !important;
+}
+::-webkit-input-placeholder {
+  color: #595959 !important;
+}
+::-moz-placeholder {
+  color: #595959 !important;
+}
+:-ms-input-placeholder {
+  color: #595959 !important;
+}
+:-moz-placeholder {
+  color: #595959 !important;
+}
+
+/* Кастомный медиа-запрос для больших экранов */
+@media (min-width: 2000px) {
+  .max-w-custom-3xl {
+    max-width: 2000px !important;
+  }
+  .max-w-full-3xl {
+    max-width: 100% !important;
+  }
+  .w-full-3xl {
+    width: 100% !important;
+  }
+}
+

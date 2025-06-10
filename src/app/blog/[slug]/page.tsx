@@ -50,7 +50,7 @@ export const metadata: Metadata = {
 export default function BlogPost() {
   return (
     <main
-      className={`relative flex flex-col min-h-screen bg-[#0E1011] max-w-[1920px] w-full mx-auto ${inter.variable}`}
+      className={`relative flex flex-col min-h-screen bg-[#0E1011] max-w-[2560px] w-full mx-auto ${inter.variable}`}
     >
       {/* Section Post */}
       {/* Header Small */}
@@ -60,7 +60,7 @@ export default function BlogPost() {
 
       <div className="flex flex-col lg:flex-row justify-center w-full relative">
         {/* Left Side - Image */}
-        <div className="w-full lg:w-1/2 bg-white relative h-[360px] sm:h-[540px] md:h-[720px] lg:h-[1080px]">
+        <div className="w-full lg:w-1/2 bg-white relative h-[360px] sm:h-[540px] md:h-[720px] lg:h-[1080px] 3xl:h-[1440px]">
           <div className="relative w-full h-full overflow-hidden">
             <Image
               src="/images/blog_single/blog_header_image.png"
@@ -75,12 +75,12 @@ export default function BlogPost() {
 
         {/* Right Side - Content */}
         <div className="w-full lg:w-1/2 flex flex-col justify-end">
-          <div className="flex flex-col p-6 sm:p-12 lg:p-24 gap-12 lg:pt-[564px] lg:pb-[64px] h-full">
-            <div className="flex flex-col gap-4">
-              <h1 className="text-white text-3xl sm:text-5xl md:text-6xl lg:text-[44px] xl:text-[56px] 2xl:text-[80px] font-bold uppercase leading-[110%] font-geometria">
+          <div className="flex flex-col p-6 sm:p-12 lg:p-24 3xl:p-[120px] gap-12 3xl:gap-16 lg:pt-[564px] 3xl:pt-[700px] lg:pb-[64px] 3xl:pb-[80px] h-full">
+            <div className="flex flex-col gap-4 3xl:gap-6">
+              <h1 className="text-white text-3xl sm:text-5xl md:text-6xl lg:text-[44px] xl:text-[56px] 2xl:text-[80px] 3xl:text-[100px] font-bold uppercase leading-[110%] font-geometria">
                 ПОЧЕМУ ПРОДУМАННЫЙ ДИЗАЙН ПРОДАЁТ
               </h1>
-              <p className="text-white text-base sm:text-lg lg:text-[24px] leading-[170%] font-inter mt-2">
+              <p className="text-white text-base sm:text-lg lg:text-[24px] 3xl:text-[32px] leading-[170%] font-inter mt-2 3xl:mt-4">
                 Improve user engagement by focusing on UX design that prioritizes functionality and user satisfaction.
               </p>
             </div>
@@ -90,13 +90,13 @@ export default function BlogPost() {
 
       {/* Main Content */}
       <div className="w-full lg:w-1/2 ml-auto">
-        <div className="flex flex-col p-6 sm:p-12 lg:p-24 lg:py-[96px] gap-16 lg:gap-[64px] -mt-[10px]">
+        <div className="flex flex-col p-6 sm:p-12 lg:p-24 3xl:p-[120px] lg:py-[96px] 3xl:py-[120px] gap-16 lg:gap-[64px] 3xl:gap-[80px] -mt-[10px]">
           {/* Priority User Needs */}
-          <div className="flex flex-col gap-2">
-            <h2 className="text-white text-2xl sm:text-3xl lg:text-[48px] font-bold uppercase leading-[130%] font-geometria">
+          <div className="flex flex-col gap-2 3xl:gap-4">
+            <h2 className="text-white text-2xl sm:text-3xl lg:text-[48px] 3xl:text-[60px] font-bold uppercase leading-[130%] font-geometria">
               PRIORITIZING USER NEEDS
             </h2>
-            <div className="text-white/60 text-base sm:text-lg lg:text-[20px] leading-[180%] font-inter space-y-10">
+            <div className="text-white/60 text-base sm:text-lg lg:text-[20px] 3xl:text-[28px] leading-[180%] font-inter space-y-10 3xl:space-y-[60px]">
               <p>
                 At the heart of thoughtful UX design is a deep understanding of the user. Boosting engagement starts with knowing who your users are, what they need, and how they interact with your website or app. Every design decision should be rooted in making their experience as seamless and enjoyable as possible, ensuring that their needs are met intuitively.
               </p>
@@ -110,11 +110,11 @@ export default function BlogPost() {
           </div>
 
           {/* Creating a Seamless Flow */}
-          <div className="flex flex-col gap-2">
-            <h2 className="text-white text-2xl sm:text-3xl lg:text-[48px] font-bold uppercase leading-[130%] font-geometria -mt-[5px]">
+          <div className="flex flex-col gap-2 3xl:gap-4">
+            <h2 className="text-white text-2xl sm:text-3xl lg:text-[48px] 3xl:text-[60px] font-bold uppercase leading-[130%] font-geometria -mt-[5px]">
               CREATING A SEAMLESS FLOW
             </h2>
-            <div className="text-white/60 text-base sm:text-lg lg:text-[20px] leading-[180%] font-inter space-y-10">
+            <div className="text-white/60 text-base sm:text-lg lg:text-[20px] 3xl:text-[28px] leading-[180%] font-inter space-y-10 3xl:space-y-[60px]">
               <p>
                 A key aspect of UX design that drives engagement is creating a seamless, intuitive flow. Users should be able to navigate through your website or app without confusion, frustration, or unnecessary clicks. Thoughtful design maps out clear paths for users, guiding them naturally from one step to the next while ensuring that important information is easily accessible.
               </p>
@@ -128,11 +128,11 @@ export default function BlogPost() {
           </div>
 
           {/* Engaging Through Emotion */}
-          <div className="flex flex-col gap-2">
-            <h2 className="text-white text-2xl sm:text-3xl lg:text-[48px] font-bold uppercase leading-[130%] font-geometria -mt-[10px]">
+          <div className="flex flex-col gap-2 3xl:gap-4">
+            <h2 className="text-white text-2xl sm:text-3xl lg:text-[48px] 3xl:text-[60px] font-bold uppercase leading-[130%] font-geometria -mt-[10px]">
               ENGAGING THROUGH EMOTION
             </h2>
-            <div className="text-white/60 text-base sm:text-lg lg:text-[20px] leading-[180%] font-inter space-y-10">
+            <div className="text-white/60 text-base sm:text-lg lg:text-[20px] 3xl:text-[28px] leading-[180%] font-inter space-y-10 3xl:space-y-[60px]">
               <p>
                 Thoughtful UX design goes beyond functionality—it taps into users&apos; emotions. Engagement is not just about making a website usable; it&apos;s about creating an emotional connection that resonates with the user. By incorporating elements of storytelling, visual appeal, and interactive features, you can evoke positive emotions that strengthen user engagement and loyalty.
               </p>
@@ -149,11 +149,11 @@ export default function BlogPost() {
 
       {/* Section Related News */}
       <div className="w-full">
-        <div className="flex flex-col bg-[#181A1B] p-6 sm:p-12 lg:p-24 lg:pt-[150px] lg:pb-[96px] mt-[25px]">
-          <h2 className="text-white text-6xl sm:text-8xl xl:text-[200px] 2xl:text-[280px] font-bold uppercase leading-[100%] font-geometria">
+        <div className="flex flex-col bg-[#181A1B] p-6 sm:p-12 lg:p-24 3xl:p-[120px] lg:pt-[150px] 3xl:pt-[200px] lg:pb-[96px] 3xl:pb-[120px] mt-[25px]">
+          <h2 className="text-white text-6xl sm:text-8xl xl:text-[200px] 2xl:text-[280px] 3xl:text-[320px] font-bold uppercase leading-[100%] font-geometria">
             ЕЩЁ НОВОСТИ
           </h2>
-          <p className="text-white text-2xl sm:text-4xl lg:text-[80px] font-semibold leading-[120%] font-inter max-w-[1400px] mt-6 sm:mt-8 lg:mt-2">
+          <p className="text-white text-2xl sm:text-4xl lg:text-[80px] 3xl:text-[100px] font-semibold leading-[120%] font-inter max-w-[1400px] max-w-custom-3xl mt-6 sm:mt-8 lg:mt-2 3xl:mt-4">
             Опыт работы с большими компаниями даёт понимание основных рабочих инструментов
           </p>
         </div>
@@ -175,15 +175,15 @@ export default function BlogPost() {
                     height={640}
                   />
                 </div>
-                <div className="flex flex-col p-6 sm:p-10 lg:p-20 gap-6 sm:gap-10 lg:gap-12 bg-inherit flex-grow">
-                  <span className="text-white/60 group-hover:text-black/60 text-xl lg:text-[30px] font-normal font-geometria transition-colors duration-300">
+                <div className="flex flex-col p-6 sm:p-10 lg:p-20 3xl:p-[120px] gap-6 sm:gap-10 lg:gap-12 3xl:gap-16 bg-inherit flex-grow">
+                  <span className="text-white/60 group-hover:text-black/60 text-xl lg:text-[30px] 3xl:text-[40px] font-normal font-geometria transition-colors duration-300">
                     (Креативный директор)
                   </span>
-                  <div className="flex flex-col gap-4">
-                    <h3 className="text-white group-hover:text-black text-2xl sm:text-3xl xl:text-[40px] 2xl:text-[48px] font-bold uppercase leading-[130%] font-geometria transition-colors duration-300">
+                  <div className="flex flex-col gap-4 3xl:gap-6">
+                    <h3 className="text-white group-hover:text-black text-2xl sm:text-3xl xl:text-[40px] 2xl:text-[48px] 3xl:text-[60px] font-bold uppercase leading-[130%] font-geometria transition-colors duration-300">
                       UMEX & SIMTEX 2024
                     </h3>
-                    <p className="text-white/60 group-hover:text-black/60 text-base sm:text-lg lg:text-[22px] leading-[170%] font-inter transition-colors duration-300">
+                    <p className="text-white/60 group-hover:text-black/60 text-base sm:text-lg lg:text-[22px] 3xl:text-[28px] leading-[170%] font-inter transition-colors duration-300">
                       Подготовили компанию &laquo;АЭРОМАКС&raquo; и сопроводили на выставке в Абу Даби. Создали стильный и продающий контент.
                     </p>
                   </div>
@@ -203,15 +203,15 @@ export default function BlogPost() {
                     height={640}
                   />
                 </div>
-                <div className="flex flex-col p-6 sm:p-10 lg:p-20 gap-6 sm:gap-10 lg:gap-12 bg-inherit flex-grow">
-                  <span className="text-white/60 group-hover:text-black/60 text-xl lg:text-[30px] font-normal font-geometria transition-colors duration-300">
+                <div className="flex flex-col p-6 sm:p-10 lg:p-20 3xl:p-[120px] gap-6 sm:gap-10 lg:gap-12 3xl:gap-16 bg-inherit flex-grow">
+                  <span className="text-white/60 group-hover:text-black/60 text-xl lg:text-[30px] 3xl:text-[40px] font-normal font-geometria transition-colors duration-300">
                     (Креативный директор)
                   </span>
-                  <div className="flex flex-col gap-4">
-                    <h3 className="text-white group-hover:text-black text-2xl sm:text-3xl xl:text-[40px] 2xl:text-[48px] font-bold uppercase leading-[130%] font-geometria transition-colors duration-300">
+                  <div className="flex flex-col gap-4 3xl:gap-6">
+                    <h3 className="text-white group-hover:text-black text-2xl sm:text-3xl xl:text-[40px] 2xl:text-[48px] 3xl:text-[60px] font-bold uppercase leading-[130%] font-geometria transition-colors duration-300">
                       ОРГАНИЗАЦИЯ ВИЗИТА ПЕРВОГО ЛИЦА
                     </h3>
-                    <p className="text-white/60 group-hover:text-black/60 text-base sm:text-lg lg:text-[22px] leading-[170%] font-inter transition-colors duration-300">
+                    <p className="text-white/60 group-hover:text-black/60 text-base sm:text-lg lg:text-[22px] 3xl:text-[28px] leading-[170%] font-inter transition-colors duration-300">
                       В сопровождении мэра столицы Сергея Собянина Президент побывал в цехе производства БПЛА.
                     </p>
                   </div>
@@ -231,15 +231,15 @@ export default function BlogPost() {
                     height={866}
                   />
                 </div>
-                <div className="flex flex-col p-6 sm:p-10 lg:p-20 gap-6 sm:gap-10 lg:gap-12 bg-inherit flex-grow">
-                  <span className="text-white/60 group-hover:text-black/60 text-xl lg:text-[30px] font-normal font-geometria transition-colors duration-300">
+                <div className="flex flex-col p-6 sm:p-10 lg:p-20 3xl:p-[120px] gap-6 sm:gap-10 lg:gap-12 3xl:gap-16 bg-inherit flex-grow">
+                  <span className="text-white/60 group-hover:text-black/60 text-xl lg:text-[30px] 3xl:text-[40px] font-normal font-geometria transition-colors duration-300">
                     (Креативный директор)
                   </span>
-                  <div className="flex flex-col gap-4">
-                    <h3 className="text-white group-hover:text-black text-2xl sm:text-3xl xl:text-[40px] 2xl:text-[48px] font-bold uppercase leading-[130%] font-geometria transition-colors duration-300">
+                  <div className="flex flex-col gap-4 3xl:gap-6">
+                    <h3 className="text-white group-hover:text-black text-2xl sm:text-3xl xl:text-[40px] 2xl:text-[48px] 3xl:text-[60px] font-bold uppercase leading-[130%] font-geometria transition-colors duration-300">
                       УЧАСТИЕ В СТРАТСЕССИИ РУДНЕВО
                     </h3>
-                    <p className="text-white/60 group-hover:text-black/60 text-base sm:text-lg lg:text-[22px] leading-[170%] font-inter transition-colors duration-300">
+                    <p className="text-white/60 group-hover:text-black/60 text-base sm:text-lg lg:text-[22px] 3xl:text-[28px] leading-[170%] font-inter transition-colors duration-300">
                       Организовали съёмку стратегической сессии в ОЭЦ &laquo;Технополис Москва&raquo; в Руднево с участием С.С. Собянина
                     </p>
                   </div>

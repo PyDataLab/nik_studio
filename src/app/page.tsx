@@ -43,11 +43,11 @@ export default function Home() {
               </Link>
               
               <div className="flex flex-col gap-8 lg:gap-10 lg:mt-[38px]">
-                <p className="text-white font-geometria text-[30px] leading-[100%] w-full lg:w-[400px] xl:w-[500px] 2xl:w-[768px] h-[90px] font-normal flex-none self-stretch">
+                <p className="text-white font-geometria text-[30px] leading-[100%] w-full lg:w-[400px] xl:w-[500px] 2xl:w-[768px] max-w-full-3xl h-[90px] font-normal flex-none self-stretch">
                   Комплексные решения для промышленных компаний / подготовка к отраслевым выставкам / сопровождение / вывод продукта на новый рынок
                 </p>
                 
-                <h1 className="text-white font-inter text-[40px] sm:text-[48px] leading-[130%] w-full lg:w-[400px] xl:w-[500px] 2xl:w-[768px] h-[124px] font-semibold flex-none self-stretch mt-55 sm:mt-15 xl:mt-15 2xl:mt-0">
+                <h1 className="text-white font-inter text-[40px] sm:text-[48px] leading-[130%] w-full lg:w-[400px] xl:w-[500px] 2xl:w-[768px] max-w-full-3xl h-[124px] font-semibold flex-none self-stretch mt-55 sm:mt-15 xl:mt-15 2xl:mt-0">
                   Превращаем сложные технологии в понятный визуал
                 </h1>
                 <div className="text-white/60 font-inter text-[30px] leading-[100%] h-[240px] font-light flex-none mt-40 xl:mt-25 2xl:mt-0">
@@ -72,11 +72,11 @@ export default function Home() {
             <p className="text-white font-geometria text-lg lg:text-[30px]">дизайн-бюро NIKstudio</p>
             
             <div className="flex flex-col gap-4 lg:gap-8 lg:-mt-[10px]">
-              <h2 className="text-white font-geometria font-bold xl:text-[60px] 2xl:text-[80px] leading-[110%] w-full sm:w-[500px] 2xl:w-[768px] h-[352px] uppercase flex-none self-stretch">
+              <h2 className="text-white font-geometria font-bold xl:text-[60px] 2xl:text-[80px] leading-[110%] w-full sm:w-[500px] 2xl:w-[768px] max-w-full-3xl h-[352px] uppercase flex-none self-stretch">
                 комплексные решения, мощный визуал
               </h2>
               
-              <div className="text-white/60 font-inter text-[22px] leading-[170%] w-full lg:w-[400px] xl:w-[500px] 2xl:w-[768px] font-normal flex-none self-stretch -mt-[300px] sm:-mt-[10px]">
+              <div className="text-white/60 font-inter text-[22px] leading-[170%] w-full lg:w-[400px] xl:w-[500px] 2xl:w-[768px] max-w-full-3xl font-normal flex-none self-stretch -mt-[300px] sm:-mt-[10px]">
                 <p>
                   Мы помогаем технологичным и производственным компаниям выглядеть ярко и понятно. Создаём дизайн, который работает — от логотипа до выставочного стенда, от презентации до 3D-видео.
                 </p>
@@ -170,8 +170,8 @@ export default function Home() {
                 проекты
               </h2>
               
-              <p className="text-white font-inter font-semibold text-xl sm:text-2xl lg:text-[80px] leading-tight max-w-[1450px] -mt-[15px]">
-                Мы берём на себя составление всех технических заданий. <br/>Все части проекта в едином ключе
+              <p className="text-white font-inter font-semibold text-xl sm:text-2xl lg:text-[80px] leading-tight max-w-[1450px] max-w-full-3xl -mt-[15px]">
+                Мы берём на себя составление всех технических заданий. Все части проекта в едином ключе
               </p>
             </div>
           </div>
@@ -309,7 +309,7 @@ export default function Home() {
                 медиа
               </h2>
               
-              <p className="text-white font-inter font-semibold text-xl sm:text-2xl lg:text-[80px] leading-tight max-w-[1400px]">
+              <p className="text-white font-inter font-semibold text-xl sm:text-2xl lg:text-[80px] leading-tight max-w-[1400px] max-w-full-3xl">
                 Создаём проекты комплексно и выполняем отдельные задачи
               </p>
             </div>
@@ -326,7 +326,7 @@ export default function Home() {
                   <h3 className="text-white font-geometria font-bold text-3xl sm:text-4xl xl:text-[80px] 2xl:text-[128px] uppercase leading-none -mt-30 sm:mt-0">
                     решения для выставок
                   </h3>
-                  <p className="w-full lg:w-[600px] 2xl:w-[800px] h-[168px] font-inter text-[40px] leading-[140%] tracking-[-1px] text-white font-semibold flex-none order-1">
+                  <p className="w-full lg:w-[600px] 2xl:w-[800px] w-full-3xl h-[168px] font-inter text-[40px] leading-[140%] tracking-[-1px] text-white font-semibold flex-none order-1">
                     Комплексный подход к дизайну и визуализации вашего присутствия на выставке.
                   </p>
                 </div>
@@ -401,13 +401,13 @@ export default function Home() {
           {/* Card 3 */}
           <div className="flex flex-col lg:flex-row">            
             <div className="w-full lg:w-3/5 px-6 sm:px-12 lg:px-32 py-16 lg:py-32 flex flex-col justify-between gap-12 lg:gap-24">
-              <div className="flex flex-col gap-6 lg:gap-16">
+              <div className="flex flex-col justify-between flex-1">
                 <div className="flex flex-col gap-4">
                   <h3 className="text-white font-geometria font-bold text-3xl sm:text-4xl xl:text-[80px] 2xl:text-[128px] uppercase leading-none">
                     ДИЗАЙН
                     <br />полиграфии
                   </h3>
-                  <p className="text-white font-inter font-semibold text-xl sm:text-2xl lg:text-[40px] leading-[140%] max-w-[800px]">
+                  <p className="text-white font-inter font-semibold text-xl sm:text-2xl lg:text-[40px] leading-[140%] max-w-[800px] max-w-full-3xl">
                     Стильный и понятный дизайн, отражающий суть продукта, созданный точно под целевого клиента. Изготовление в точной цветопередачей.
                   </p>
                 </div>
@@ -453,7 +453,7 @@ export default function Home() {
                   <h3 className="text-white font-geometria font-bold text-3xl sm:text-4xl xl:text-[80px] 2xl:text-[128px] uppercase leading-none">
                     Фото
                   </h3>
-                  <p className="text-white font-inter font-semibold text-xl sm:text-2xl lg:text-[40px] leading-[140%] max-w-[800px]">
+                  <p className="text-white font-inter font-semibold text-xl sm:text-2xl lg:text-[40px] leading-[140%] max-w-[800px] max-w-full-3xl">
                     Профессиональное фото продукта и процесса производства
                   </p>
                 </div>
@@ -484,7 +484,7 @@ export default function Home() {
                   <h3 className="text-white font-geometria font-bold text-3xl sm:text-4xl xl:text-[80px] 2xl:text-[128px] uppercase leading-none">
                     3d графика
                   </h3>
-                  <p className="text-white font-inter font-semibold text-xl sm:text-2xl lg:text-[40px] leading-[140%] max-w-[800px]">
+                  <p className="text-white font-inter font-semibold text-xl sm:text-2xl lg:text-[40px] leading-[140%] max-w-[800px] max-w-full-3xl">
                     Создание промышленного 3д-дизайна, анимация графики
                   </p>
                 </div>
@@ -531,7 +531,7 @@ export default function Home() {
                   <h3 className="text-white font-geometria font-bold text-3xl sm:text-4xl xl:text-[80px] 2xl:text-[128px] uppercase leading-none">
                     web-Сайты
                   </h3>
-                  <p className="text-white font-inter font-semibold text-xl sm:text-2xl lg:text-[40px] leading-[140%] max-w-[800px]">
+                  <p className="text-white font-inter font-semibold text-xl sm:text-2xl lg:text-[40px] leading-[140%] max-w-[800px] max-w-full-3xl">
                     Эксклюзивные продуманные web-сайты, созданные на основе уникального контента: брендинг, фото, видео, 3д графика - всё в едином ключе.
                   </p>
                 </div>
@@ -564,7 +564,7 @@ export default function Home() {
                     видео
                     <br />продакшн
                   </h3>
-                  <p className="text-white font-inter font-semibold text-xl sm:text-2xl lg:text-[40px] leading-[140%] max-w-[800px]">
+                  <p className="text-white font-inter font-semibold text-xl sm:text-2xl lg:text-[40px] leading-[140%] max-w-[800px] max-w-full-3xl">
                     Большой опыт позволяет самим создавать сценарий и понятно демонстрировать преимущества вашей компании.
                   </p>
                 </div>
@@ -612,7 +612,7 @@ export default function Home() {
                 говорят о нас
               </h2>
               
-              <p className="text-white font-inter font-semibold text-xl sm:text-2xl lg:text-[80px] leading-tight tracking-[-2px] max-w-[1400px]">
+              <p className="text-white font-inter font-semibold text-xl sm:text-2xl lg:text-[80px] leading-tight tracking-[-2px] max-w-[1400px] max-w-full-3xl">
                 Команда NIKstudio закрывает целый ряд задач с энтузиазмом и полной ответственностью
               </p>
             </div>

@@ -37,17 +37,17 @@ export const metadata: Metadata = {
 
 export default function Blog() {
   return (
-    <main className={`relative flex flex-col min-h-screen bg-[#0E1011] max-w-[1920px] w-full mx-auto ${inter.variable}`}>
+    <main className={`relative flex flex-col min-h-screen bg-[#0E1011] max-w-[2560px] w-full mx-auto ${inter.variable}`}>
       {/* Header */}
       <Header />
 
       {/* Blog Title Section */}
-      <section className="w-full pt-96 sm:pt-38 pb-24 px-6 sm:px-12 lg:px-24">
+      <section className="w-full pt-96 sm:pt-38 pb-24 px-6 sm:px-12 lg:px-24 3xl:px-[120px] 3xl:pt-[200px] 3xl:pb-[100px]">
         <div className="flex flex-col">
-          <h1 className="text-white text-[88px] sm:text-[200px] 2xl:text-[280px] font-geometria font-extrabold uppercase leading-[100%]">
+          <h1 className="text-white text-[88px] sm:text-[200px] 2xl:text-[280px] 3xl:text-[320px] font-geometria font-extrabold uppercase leading-[100%]">
             БЛОГ
           </h1>
-          <p className="mt-[10px] text-white text-2xl sm:text-4xl md:text-6xl lg:text-[80px] font-inter font-semibold leading-[1.2] tracking-[-0.025em] max-w-[1400px]">
+          <p className="mt-[10px] text-white text-2xl sm:text-4xl md:text-6xl lg:text-[80px] 3xl:text-[100px] font-inter font-semibold leading-[1.2] tracking-[-0.025em] max-w-[1400px] 2xl:max-w-[1400px] max-w-custom-3xl">
             Новости и тенденции, которые помогут усовершенствовать стратегию вашего бренда.
           </p>
         </div>
@@ -66,15 +66,15 @@ export default function Blog() {
                 className="object-cover transition-transform duration-500 group-hover:scale-110"
               />
             </div>
-            <div className="p-8 md:p-20 flex flex-col gap-12 bg-inherit">
-              <span className="text-white/60 group-hover:text-black/60 text-xl md:text-[30px] font-geometria font-normal leading-none transition-colors duration-300">
+            <div className="p-8 md:p-20 3xl:p-[120px] flex flex-col gap-12 3xl:gap-16 bg-inherit">
+              <span className="text-white/60 group-hover:text-black/60 text-xl md:text-[30px] 3xl:text-[40px] font-geometria font-normal leading-none transition-colors duration-300">
                 (Креативный директор)
               </span>
-              <div className="flex flex-col gap-4">
-                <h2 className="text-white group-hover:text-black text-3xl xl:text-[36px] 2xl:text-[48px] font-geometria font-bold uppercase leading-[1.3] transition-colors duration-300">
+              <div className="flex flex-col gap-4 3xl:gap-6">
+                <h2 className="text-white group-hover:text-black text-3xl xl:text-[36px] 2xl:text-[48px] 3xl:text-[60px] font-geometria font-bold uppercase leading-[1.3] transition-colors duration-300">
                   ПОЧЕМУ ПРОДУМАННЫЙ ДИЗАЙН ПРОДАЕТ
                 </h2>
-                <p className="text-white group-hover:text-black text-lg md:text-[22px] font-inter font-normal leading-[1.7] transition-colors duration-300">
+                <p className="text-white group-hover:text-black text-lg md:text-[22px] 3xl:text-[28px] font-inter font-normal leading-[1.7] transition-colors duration-300">
                   Discover key strategies to create a memorable and impactful brand for your small business.
                 </p>
               </div>
@@ -93,15 +93,15 @@ export default function Blog() {
                 className="object-cover transition-transform duration-500 group-hover:scale-110"
               />
             </div>
-            <div className="p-8 md:p-20 flex flex-col gap-12 bg-inherit">
-              <span className="text-white/60 group-hover:text-black/60 text-xl md:text-[30px] font-geometria font-normal leading-none transition-colors duration-300">
+            <div className="p-8 md:p-20 3xl:p-[120px] flex flex-col gap-12 3xl:gap-16 bg-inherit">
+              <span className="text-white/60 group-hover:text-black/60 text-xl md:text-[30px] 3xl:text-[40px] font-geometria font-normal leading-none transition-colors duration-300">
                 (Креативный директор)
               </span>
-              <div className="flex flex-col gap-4">
-                <h2 className="text-white group-hover:text-black text-3xl xl:text-[36px] 2xl:text-[48px] font-geometria font-bold uppercase leading-[1.3] transition-colors duration-300">
+              <div className="flex flex-col gap-4 3xl:gap-6">
+                <h2 className="text-white group-hover:text-black text-3xl xl:text-[36px] 2xl:text-[48px] 3xl:text-[60px] font-geometria font-bold uppercase leading-[1.3] transition-colors duration-300">
                   СО СЛОЖНОГО ЯЗЫКА В ПРОСТОЙ ВИЗУАЛ
                 </h2>
-                <p className="text-white/60 group-hover:text-black/60 text-lg md:text-[22px] font-inter font-normal leading-[1.7] transition-colors duration-300">
+                <p className="text-white/60 group-hover:text-black/60 text-lg md:text-[22px] 3xl:text-[28px] font-inter font-normal leading-[1.7] transition-colors duration-300">
                   Learn practical tips for designing websites that are both visually appealing and user-friendly.
                 </p>
               </div>
@@ -120,15 +120,15 @@ export default function Blog() {
                 className="object-cover transition-transform duration-500 group-hover:scale-110"
               />
             </div>
-            <div className="p-8 md:p-20 flex flex-col gap-12 bg-inherit">
-              <span className="text-white/60 group-hover:text-black/60 text-xl md:text-[30px] font-geometria font-normal leading-none transition-colors duration-300">
+            <div className="p-8 md:p-20 3xl:p-[120px] flex flex-col gap-12 3xl:gap-16 bg-inherit">
+              <span className="text-white/60 group-hover:text-black/60 text-xl md:text-[30px] 3xl:text-[40px] font-geometria font-normal leading-none transition-colors duration-300">
                 (Креативный директор)
               </span>
-              <div className="flex flex-col gap-4">
-                <h2 className="text-white group-hover:text-black text-3xl xl:text-[36px] 2xl:text-[48px] font-geometria font-bold uppercase leading-[1.3] transition-colors duration-300">
+              <div className="flex flex-col gap-4 3xl:gap-6">
+                <h2 className="text-white group-hover:text-black text-3xl xl:text-[36px] 2xl:text-[48px] 3xl:text-[60px] font-geometria font-bold uppercase leading-[1.3] transition-colors duration-300">
                   ПРАВИЛЬНЫЕ ФОТО ЭКОНОМЯТ БЮДЖЕТ
                 </h2>
-                <p className="text-white/60 group-hover:text-black/60 text-lg md:text-[22px] font-inter font-normal leading-[1.7] transition-colors duration-300">
+                <p className="text-white/60 group-hover:text-black/60 text-lg md:text-[22px] 3xl:text-[28px] font-inter font-normal leading-[1.7] transition-colors duration-300">
                   Explore why responsive design is crucial for enhancing experience and increasing conversions.
                 </p>
               </div>
@@ -147,15 +147,15 @@ export default function Blog() {
                 className="object-cover transition-transform duration-500 group-hover:scale-110"
               />
             </div>
-            <div className="p-8 md:p-20 flex flex-col gap-12 bg-inherit">
-              <span className="text-white/60 group-hover:text-black/60 text-xl md:text-[30px] font-geometria font-normal leading-none transition-colors duration-300">
+            <div className="p-8 md:p-20 3xl:p-[120px] flex flex-col gap-12 3xl:gap-16 bg-inherit">
+              <span className="text-white/60 group-hover:text-black/60 text-xl md:text-[30px] 3xl:text-[40px] font-geometria font-normal leading-none transition-colors duration-300">
                 (Креативный директор)
               </span>
-              <div className="flex flex-col gap-4">
-                <h2 className="text-white group-hover:text-black text-3xl xl:text-[36px] 2xl:text-[48px] font-geometria font-bold uppercase leading-[1.3] transition-colors duration-300">
+              <div className="flex flex-col gap-4 3xl:gap-6">
+                <h2 className="text-white group-hover:text-black text-3xl xl:text-[36px] 2xl:text-[48px] 3xl:text-[60px] font-geometria font-bold uppercase leading-[1.3] transition-colors duration-300">
                   UMEX & SIMTEX 2024
                 </h2>
-                <p className="text-white/60 group-hover:text-black/60 text-lg md:text-[22px] font-inter font-normal leading-[1.7] transition-colors duration-300">
+                <p className="text-white/60 group-hover:text-black/60 text-lg md:text-[22px] 3xl:text-[28px] font-inter font-normal leading-[1.7] transition-colors duration-300">
                   Подготовили компанию «АЭРОМАКС» и сопроводили на выставке в Абу Даби. Создали стильный и продающий контент.
                 </p>
               </div>
@@ -174,15 +174,15 @@ export default function Blog() {
                 className="object-cover transition-transform duration-500 group-hover:scale-110"
               />
             </div>
-            <div className="p-8 md:p-20 flex flex-col gap-12 bg-inherit">
-              <span className="text-white/60 group-hover:text-black/60 text-xl md:text-[30px] font-geometria font-normal leading-none transition-colors duration-300">
+            <div className="p-8 md:p-20 3xl:p-[120px] flex flex-col gap-12 3xl:gap-16 bg-inherit">
+              <span className="text-white/60 group-hover:text-black/60 text-xl md:text-[30px] 3xl:text-[40px] font-geometria font-normal leading-none transition-colors duration-300">
                 (Креативный директор)
               </span>
-              <div className="flex flex-col gap-4">
-                <h2 className="text-white group-hover:text-black text-3xl xl:text-[36px] 2xl:text-[48px] font-geometria font-bold uppercase leading-[1.3] transition-colors duration-300">
+              <div className="flex flex-col gap-4 3xl:gap-6">
+                <h2 className="text-white group-hover:text-black text-3xl xl:text-[36px] 2xl:text-[48px] 3xl:text-[60px] font-geometria font-bold uppercase leading-[1.3] transition-colors duration-300">
                   ОРГАНИЗАЦИЯ ВИЗИТА ПЕРВОГО ЛИЦА
                 </h2>
-                <p className="text-white/60 group-hover:text-black/60 text-lg md:text-[22px] font-inter font-normal leading-[1.7] transition-colors duration-300">
+                <p className="text-white/60 group-hover:text-black/60 text-lg md:text-[22px] 3xl:text-[28px] font-inter font-normal leading-[1.7] transition-colors duration-300">
                   В сопровождении мэра столицы Сергея Собянина Президент побывал в цехе производства БПЛА.
                 </p>
               </div>
@@ -201,15 +201,15 @@ export default function Blog() {
                 className="object-cover transition-transform duration-500 group-hover:scale-110"
               />
             </div>
-            <div className="p-8 md:p-20 flex flex-col gap-12 bg-inherit">
-              <span className="text-white/60 group-hover:text-black/60 text-xl md:text-[30px] font-geometria font-normal leading-none transition-colors duration-300">
+            <div className="p-8 md:p-20 3xl:p-[120px] flex flex-col gap-12 3xl:gap-16 bg-inherit">
+              <span className="text-white/60 group-hover:text-black/60 text-xl md:text-[30px] 3xl:text-[40px] font-geometria font-normal leading-none transition-colors duration-300">
                 (Креативный директор)
               </span>
-              <div className="flex flex-col gap-4">
-                <h2 className="text-white group-hover:text-black text-3xl xl:text-[36px] 2xl:text-[48px] font-geometria font-bold uppercase leading-[1.3] transition-colors duration-300">
+              <div className="flex flex-col gap-4 3xl:gap-6">
+                <h2 className="text-white group-hover:text-black text-3xl xl:text-[36px] 2xl:text-[48px] 3xl:text-[60px] font-geometria font-bold uppercase leading-[1.3] transition-colors duration-300">
                   УЧАСТИЕ В СТРАТСЕССИИ РУДНЕВО
                 </h2>
-                <p className="text-white/60 group-hover:text-black/60 text-lg md:text-[22px] font-inter font-normal leading-[1.7] transition-colors duration-300">
+                <p className="text-white/60 group-hover:text-black/60 text-lg md:text-[22px] 3xl:text-[28px] font-inter font-normal leading-[1.7] transition-colors duration-300">
                   Организовали съёмку стратегической сессии в ОЭЦ «Технополис Москва» в Руднево с участием С.С. Собянина
                 </p>
               </div>

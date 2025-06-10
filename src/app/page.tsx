@@ -635,7 +635,7 @@ export default function Home() {
                   Exceptional Branding That Elevated Our Identity.
                 </h3>
                 <p className="text-white/60 font-inter text-base lg:text-xl leading-[180%] -mt-[17px]">
-                  Their strategic approach completely transformed our brand. We've seen a huge increase in recognition and client engagement.
+                  Their strategic approach completely transformed our brand. We&apos;ve seen a huge increase in recognition and client engagement.
                 </p>
               </div>
               
@@ -771,7 +771,7 @@ export default function Home() {
                   Запустили интернет магазин для розничной продукции
                 </h3>
                 <p className="text-white/60 font-inter text-base lg:text-xl leading-[180%] -mt-[17px]">
-                  Our new branding resonated with our audience immediately. We've received so many compliments and new business inquiries.
+                  Our new branding resonated with our audience immediately. We&apos;ve received so many compliments and new business inquiries.
                 </p>
               </div>
               

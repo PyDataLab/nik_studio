@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import { useState, useEffect, useRef } from "react";
+import { useState, useRef } from "react";
 
 export default function MediaPage() {
   const [currentTestimonialIndex, setCurrentTestimonialIndex] = useState(0);
@@ -393,19 +393,6 @@ export default function MediaPage() {
     }, 450);
   };
   
-  const goToTestimonial = (index: number) => {
-    if (isTransitioning || index === currentTestimonialIndex) return;
-    
-    setIsTransitioning(true);
-    setTimeout(() => {
-      setCurrentTestimonialIndex(index);
-      
-      setTimeout(() => {
-        setIsTransitioning(false);
-      }, 50);
-    }, 450);
-  };
-
   const currentTestimonial = testimonials[currentTestimonialIndex];
 
   // Mouse drag handlers

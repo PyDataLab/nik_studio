@@ -17,7 +17,7 @@ export default function Header_mini() {
           Проекты
         </Link>
         <Link
-          href="#"
+          href="/media"
           className="text-white font-inter font-semibold text-lg sm:text-[22px] leading-none hover:text-[#DE063A] transition-colors duration-300"
         >
           Медиа

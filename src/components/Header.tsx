@@ -30,7 +30,7 @@ export default function Header() {
           Проекты
         </Link>
         <Link
-          href="#"
+          href="/media"
           className="text-white font-inter font-semibold text-lg md:text-[22px] leading-none hover:text-[#DE063A] transition-colors duration-300"
         >
           Медиа
